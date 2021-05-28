@@ -5,10 +5,10 @@ import InformationPage from '../pages/InformationPage'
 import OverviewPage from '../pages/OverviewPage'
 import ConfirmationPage from '../pages/ConfirmationPage'
 
-fixture('Fill information page')
+fixture('Confirmation page')
 
     .page('https://www.saucedemo.com/')
-    test('User fills the personal information page Test', async t => {
+    test('User adds product, fills information and gets to confirmation page Test', async t => {
         await LoginPage.submitLogin("standard_user","secret_sauce")
         await ProductsPage.AddItems("Multiple")
         await t.click(ShoppingPage.CheckoutButton)
