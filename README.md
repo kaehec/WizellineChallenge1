@@ -20,7 +20,7 @@ c:\Users\{username}\git\challenge1> git clone https://github.com/kaehec/Wizellin
 
 Organization
 
-There are 10 test, they are designed to run individually. 
+There are 10 test stored on Test folder, they are dessigned to run individually.
 
 Execution
 
